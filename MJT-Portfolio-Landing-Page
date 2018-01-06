@@ -1,0 +1,53 @@
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta name="csrf-param" content="authenticity_token" />
+  <meta name="csrf-token" content="UcLL7cPkQWB4RN+smPt4KTd60Vb6IPrVQGPHlLqbQ2ap3Lng/bIhgjjhBSsCYfC/2kvAw+T2avHwIajjkVnxWw==" />
+  <title> Mannys Portfolio </title>
+  <link rel="stylesheet" type="text/css" href = "Css-Landing-Page/Css-Landing-Page">
+  <!-- Latest compiled and minified CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+<!-- menu-->
+<ul>
+  <!--<li> Manuel Torres <li> --> 
+  <li> <a> Home </a> </li>
+  <li> <a>About Me </a> </li>
+  <li> <a>Contact Me</a> </li>
+</ul>
+
+<!--Insert banner here --> 
+ <h1> Welcome to My Portfolio</h1>
+
+<div class = "parallax-container">
+  <div id="layer-one" class = "layer">
+   
+    <p> This is currently a holding page for my projects and such  </p>
+  </div> <!--Layer 1 -->
+  <div id="layer-two" class = "layer">
+    <p>This is a pretty Field </p>
+
+  </div> <!-- Layer 2-->
+  <div id="layer-three" class = "layer container">
+    <h1> ABOUT ME </h1>
+    <p> I graduated from the University of Wisconsin-Madison. I currently am taking online courses in Java at the University of Wisconsin-Milwaukee. I have started to teach myself HTML, CSS, and Javascript the winter of 2017. With the new year I aim to complete the 30 day javascript challenge and the front end development certificate through Free Code Camp.  </p>
+
+  </div> <!-- Layer 2-->
+  <div id="layer-four" class = "layer">
+    <p> Contact me </p>
+  </div> <!-- Layer 2-->
+</div> <!-- parallax-container -->
+
+</body>
