@@ -10,37 +10,42 @@
   <title> Mannys Portfolio </title>
   <link rel="stylesheet" type="text/css" href = "Css-Landing-Page/Css-Landing-Page">
   <!-- Latest compiled and minified CSS -->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <!-- Latest compiled and minified JavaScript -->
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 
 <body>
 <!-- menu-->
-<ul>
-  <!--<li> Manuel Torres <li> --> 
-  <li> <a> Home </a> </li>
-  <li> <a>About Me </a> </li>
-  <li> <a>Contact Me</a> </li>
-</ul>
+<nav class= "navigation">
+  <ul>
+  <!--<li> Manuel Torres <li> -->
+    <li> <a> Home </a> </li>
+    <li> <a>Blog </a> </li>
+    <li> <a>Projects</a> </li>
+    <li> <a> Social</a> </li>
+  </ul>
+</nav>
 
-<!--Insert banner here --> 
- <h1> Welcome to My Portfolio</h1>
-
+<!--Insert banner here -->
 <div class = "parallax-container">
   <div id="layer-one" class = "layer">
-   
-    <p> This is currently a holding page for my projects and such  </p>
+    <h1> Welcome to My Portfolio</h1>
+
+    <p> Hello, my name is Manny. I am an aspiring front-end Developer living in Milwaukee, WI  </p>
   </div> <!--Layer 1 -->
   <div id="layer-two" class = "layer">
-    <p>This is a pretty Field </p>
+    <h2> Skills with profiecency </h2>
+    <ul>
+      <li> HTML</li>
+      <li> Css</li>
+      <li> JavaScript</li> 
+
+     </ul>
 
   </div> <!-- Layer 2-->
-  <div id="layer-three" class = "layer container">
+  <div id="layer-three" class = "layer ">
     <h1> ABOUT ME </h1>
     <p> I graduated from the University of Wisconsin-Madison. I currently am taking online courses in Java at the University of Wisconsin-Milwaukee. I have started to teach myself HTML, CSS, and Javascript the winter of 2017. With the new year I aim to complete the 30 day javascript challenge and the front end development certificate through Free Code Camp.  </p>
 
