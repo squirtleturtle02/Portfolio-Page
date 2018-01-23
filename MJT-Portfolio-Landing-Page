@@ -40,9 +40,11 @@
     <ul>
       <li> HTML</li>
       <li> Css</li>
-      <li> JavaScript</li> 
+      <li> JavaScript</li>
 
      </ul>
+<h2> Skills I am working on </h2>
+<p> Sql, Java </p>
 
   </div> <!-- Layer 2-->
   <div id="layer-three" class = "layer ">
