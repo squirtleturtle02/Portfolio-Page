@@ -3,12 +3,16 @@ color: black;
 text-align: center;
 font-weight: bolder;
 }
+h4 {
+float: right;
+}
 
 nav {
-background-color: black;
+background-color: white;
   margin: auto;
   overflow:hidden;
 };
+
 
 ul {
 display:inline;
@@ -23,29 +27,26 @@ background-color: #eaeaea;
 li {
 display: inline;  /* inline block elements - line breaks exist - removes line breaks to display all on one line */
 float: left; /* blocks slide left */
-border-right:2px solid black;
-
 }
 
 a {
-display: block; /* block elements make link area clickable , lets us specif padding and other information */
+display: block; /* block elements make link area clickable , lets us specify padding and other information */
 padding: 10px;
 }
 
 li a:hover{
 background-color: #ffffff    ;
+border: solid black 5px;
 }
 
-
-p {
-font-weight:bolder;
-font-size:1.5em;
-
-}
  p {
+ font-weight:bolder;
+ font-size:1.5em;
   padding: 5em 0;
   margin: 0;
+  filter: opacity(1);
 }
+
 .layer {
   background: 50% 50% / cover no-repeat;
     background-attachment: fixed;
@@ -53,8 +54,15 @@ font-size:1.5em;
 }
 
 #layer-one {
-background-image: url(https://images.unsplash.com/photo-1509069575671-3df40ce5307c?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+background-color: #ffffff;
 }
+
+
+.about {
+background: rgba(229,229,229,0.25)
+}
+
+
 
 #layer-two {
 background-image: url("https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=1055&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");

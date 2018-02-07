@@ -12,7 +12,9 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Latest compiled and minified JavaScript -->
+
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 
 
@@ -26,30 +28,27 @@
     <li> <a>Projects</a> </li>
     <li> <a> Social</a> </li>
   </ul>
+  <h4> Manuel Torres </h4>
 </nav>
 
 <!--Insert banner here -->
 <div class = "parallax-container">
   <div id="layer-one" class = "layer">
-    <h1> Welcome to My Portfolio</h1>
-
-    <p> Hello, my name is Manny. I am an aspiring front-end Developer living in Milwaukee, WI  </p>
+    <!--<h1> Welcome to My Portfolio</h1> -->
+    <div class = "about">
+    <h1> ABOUT ME </h1>
+    <p> Hello, my name is Manny. I am an aspiring front-end Developer living in Milwaukee, WI
+    I graduated from the University of Wisconsin-Madison. I currently am taking online courses in Java at the University of Wisconsin-Milwaukee. I have started to teach myself HTML, CSS, and Javascript the winter of 2017. With the new year I aim to complete the 30 day javascript challenge and the front end development certificate through Free Code Camp.  </p>
   </div> <!--Layer 1 -->
   <div id="layer-two" class = "layer">
-    <h2> Skills with profiecency </h2>
-    <ul>
-      <li> HTML</li>
-      <li> Css</li>
-      <li> JavaScript</li>
 
-     </ul>
-<h2> Skills I am working on </h2>
-<p> Sql, Java </p>
+  <h2> Skills with profiecency </h2>
+    <p> HTML, Javascript, </p>
+    <h2> Skills I am working on </h2>
+    <p> Sql, Java </p>
 
   </div> <!-- Layer 2-->
   <div id="layer-three" class = "layer ">
-    <h1> ABOUT ME </h1>
-    <p> I graduated from the University of Wisconsin-Madison. I currently am taking online courses in Java at the University of Wisconsin-Milwaukee. I have started to teach myself HTML, CSS, and Javascript the winter of 2017. With the new year I aim to complete the 30 day javascript challenge and the front end development certificate through Free Code Camp.  </p>
 
   </div> <!-- Layer 2-->
   <div id="layer-four" class = "layer">
